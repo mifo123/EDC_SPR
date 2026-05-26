@@ -1,4 +1,4 @@
-# EDC seminar work: fuzzy prioritisation of ZFR candidates
+# EDC_SPR seminar work: fuzzy prioritisation of ZFR candidates
 
 This project contains a self-contained Python implementation and LaTeX source
 for a seminar work on decision support in Z-DNA candidate prioritisation in
@@ -64,22 +64,3 @@ make pack-ready
 
 This target does not regenerate or curate datasets and creates
 `dist/edc_spr_submission_ready.zip`.
-
-## Git LFS
-
-Large raw CSV files under `data/shin_data/` are marked for Git LFS in
-`.gitattributes`. Before adding these files to Git, install and initialise LFS:
-
-```bash
-brew install git-lfs
-git lfs install
-git add .gitattributes data/shin_data
-git lfs ls-files
-```
-
-If any large CSV files were already committed without LFS, migrate them before
-pushing with:
-
-```bash
-git lfs migrate import --include="data/shin_data/**/*.csv"
-```

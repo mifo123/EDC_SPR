@@ -1,0 +1,6 @@
+scenario,label,split,n,mae,rmse,spearman,pearson,queue_accuracy,adjacent_accuracy,macro_f1,top_k_precision,quality_index,delta_mae,quality_loss
+full,plny_model,test,64.0,5.1463,6.2915,0.9437,0.9499,0.7656,1.0,0.5927,0.8421,82.5867,0.0,0.0
+no_cpx,bez_CpX_kontextu,test,64.0,6.0235,7.455,0.942,0.9455,0.7188,1.0,0.6665,0.8947,81.9006,0.8772,0.6862
+no_tss,bez_TSS_vzdialenosti,test,64.0,8.7377,10.4101,0.9247,0.9273,0.5781,1.0,0.4585,0.8421,73.3449,3.5914,9.2419
+no_bias,bez_biasu,test,64.0,8.2852,10.7149,0.9168,0.9196,0.5156,0.9844,0.3985,0.7895,70.6379,3.1389,11.9488
+no_feasibility,bez_validovatelnosti,test,64.0,6.1548,7.5624,0.9351,0.9395,0.6875,1.0,0.5158,0.7895,78.2321,1.0085,4.3547

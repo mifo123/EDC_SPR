@@ -1,0 +1,29 @@
+config_name,mode,split,description,n,mae,rmse,spearman,pearson,queue_accuracy,adjacent_accuracy,macro_f1,top_k_precision,quality_index
+E7_takagi_sugeno,takagi_sugeno,train,Takagiho-Sugenov fuzzy model s lokalnymi numerickymi dosledkami pravidiel.,192.0,4.2402,5.3153,0.9552,0.954,0.8073,1.0,0.7659,0.8913,86.6733
+E3_weighted_linear,linear,train,Vazeny rozhodovaci model s explicitnou penalizaciou biasu.,192.0,4.7692,6.0303,0.949,0.9464,0.776,1.0,0.6978,0.8696,84.4671
+E6_fuzzy_calibrated,fuzzy_calibrated,train,Finalna iteracia: hierarchicky fuzzy system s numerickou kalibraciou rezidua.,192.0,8.7607,11.3872,0.886,0.8659,0.5938,0.9948,0.5774,0.7174,70.8175
+E4_fuzzy_permissive,fuzzy,train,Prva fuzzy iteracia: citlivejsia a permissivnejsia pravidlova baza.,192.0,9.6515,12.1246,0.8559,0.8209,0.6042,0.9948,0.5806,0.6522,67.9907
+E5_fuzzy_conservative,fuzzy,train,Druha fuzzy iteracia: prisnejsia penalizacia biasu a proxy evidencie.,192.0,11.881,15.3681,0.8357,0.7769,0.5677,0.9948,0.5463,0.6304,63.638
+E2_sequence_consensus,sequence,train,Sekvencny konsenzus Z-DNA Hunter a Z-DNABERT bez kontextu.,192.0,12.3675,15.4035,0.3574,0.3612,0.4271,0.9062,0.3221,0.413,35.4649
+E1_zdna_only,z_only,train,Naivny baseline pouzivajuci iba normalizovane zdna_score.,192.0,17.9043,21.5032,-0.07,-0.0653,0.2448,0.7708,0.1893,0.3043,7.3615
+E7_takagi_sugeno,takagi_sugeno,validation,Takagiho-Sugenov fuzzy model s lokalnymi numerickymi dosledkami pravidiel.,64.0,4.7619,5.8764,0.9555,0.948,0.8594,1.0,0.7809,0.8333,86.4725
+E3_weighted_linear,linear,validation,Vazeny rozhodovaci model s explicitnou penalizaciou biasu.,64.0,4.9977,6.4011,0.9466,0.9396,0.7969,1.0,0.6164,0.8889,84.4242
+E4_fuzzy_permissive,fuzzy,validation,Prva fuzzy iteracia: citlivejsia a permissivnejsia pravidlova baza.,64.0,10.0668,13.3953,0.8408,0.7862,0.625,0.9844,0.5508,0.8333,69.9887
+E6_fuzzy_calibrated,fuzzy_calibrated,validation,Finalna iteracia: hierarchicky fuzzy system s numerickou kalibraciou rezidua.,64.0,10.1844,13.3292,0.8715,0.8364,0.5625,0.9844,0.5292,0.7778,68.6464
+E5_fuzzy_conservative,fuzzy,validation,Druha fuzzy iteracia: prisnejsia penalizacia biasu a proxy evidencie.,64.0,13.2274,18.0811,0.8061,0.7351,0.5312,0.9844,0.4926,0.7222,61.32
+E2_sequence_consensus,sequence,validation,Sekvencny konsenzus Z-DNA Hunter a Z-DNABERT bez kontextu.,64.0,12.0511,16.0128,0.2925,0.2924,0.4844,0.9219,0.3501,0.5,36.4162
+E1_zdna_only,z_only,validation,Naivny baseline pouzivajuci iba normalizovane zdna_score.,64.0,18.4958,22.5774,-0.1006,-0.0894,0.2812,0.75,0.2201,0.2778,6.957
+E7_takagi_sugeno,takagi_sugeno,test,Takagiho-Sugenov fuzzy model s lokalnymi numerickymi dosledkami pravidiel.,64.0,5.1463,6.2915,0.9437,0.9499,0.7656,1.0,0.5927,0.8421,82.5867
+E3_weighted_linear,linear,test,Vazeny rozhodovaci model s explicitnou penalizaciou biasu.,64.0,5.6853,6.9526,0.9433,0.9447,0.7188,1.0,0.5578,0.8421,80.7916
+E6_fuzzy_calibrated,fuzzy_calibrated,test,Finalna iteracia: hierarchicky fuzzy system s numerickou kalibraciou rezidua.,64.0,8.8382,11.4394,0.9038,0.8925,0.5938,1.0,0.5873,0.7368,71.8812
+E4_fuzzy_permissive,fuzzy,test,Prva fuzzy iteracia: citlivejsia a permissivnejsia pravidlova baza.,64.0,10.5499,13.1482,0.8633,0.8162,0.5312,1.0,0.5046,0.7895,67.6025
+E5_fuzzy_conservative,fuzzy,test,Druha fuzzy iteracia: prisnejsia penalizacia biasu a proxy evidencie.,64.0,11.2097,14.8522,0.8699,0.827,0.625,0.9844,0.5877,0.6316,66.9457
+E2_sequence_consensus,sequence,test,Sekvencny konsenzus Z-DNA Hunter a Z-DNABERT bez kontextu.,64.0,13.2822,16.0486,0.4087,0.4005,0.3125,0.875,0.2535,0.5263,34.8152
+E1_zdna_only,z_only,test,Naivny baseline pouzivajuci iba normalizovane zdna_score.,64.0,18.5431,22.204,0.085,0.0788,0.3281,0.7031,0.26,0.2632,10.3324
+E7_takagi_sugeno,takagi_sugeno,all,Takagiho-Sugenov fuzzy model s lokalnymi numerickymi dosledkami pravidiel.,320.0,4.5258,5.6369,0.9518,0.9508,0.8094,1.0,0.7374,0.8675,85.7531
+E3_weighted_linear,linear,all,Vazeny rozhodovaci model s explicitnou penalizaciou biasu.,320.0,4.9981,6.2993,0.9448,0.9435,0.7688,1.0,0.6601,0.8554,83.4645
+E6_fuzzy_calibrated,fuzzy_calibrated,all,Finalna iteracia: hierarchicky fuzzy system s numerickou kalibraciou rezidua.,320.0,9.0609,11.8113,0.8851,0.8646,0.5875,0.9938,0.5733,0.6867,69.8138
+E4_fuzzy_permissive,fuzzy,all,Prva fuzzy iteracia: citlivejsia a permissivnejsia pravidlova baza.,320.0,9.9142,12.5962,0.8516,0.8104,0.5938,0.9938,0.5643,0.7349,68.5402
+E5_fuzzy_conservative,fuzzy,all,Druha fuzzy iteracia: prisnejsia penalizacia biasu a proxy evidencie.,320.0,12.016,15.8496,0.8292,0.7773,0.5719,0.9906,0.5465,0.5904,62.6295
+E2_sequence_consensus,sequence,all,Sekvencny konsenzus Z-DNA Hunter a Z-DNABERT bez kontextu.,320.0,12.4872,15.6574,0.3576,0.3565,0.4156,0.9031,0.3151,0.4699,35.9097
+E1_zdna_only,z_only,all,Naivny baseline pouzivajuci iba normalizovane zdna_score.,320.0,18.1504,21.8628,-0.0364,-0.0351,0.2687,0.7531,0.2115,0.2771,7.0213

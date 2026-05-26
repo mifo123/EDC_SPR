@@ -1,0 +1,93 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 720.00 430.00] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 3946 >>
+stream
+0.984 0.984 0.973 rg 0.00 0.00 720.00 430.00 re f
+BT 0.137 0.137 0.137 rg /F2 15.0 Tf 35.00 397.00 Td (Shin validation trajectory: fast Hunter + fuzzy vs ZDNABERT reference) Tj ET
+BT 0.137 0.137 0.137 rg /F1 9.0 Tf 35.00 377.00 Td (Genome-wide Hunter + fuzzy evaluation runs in seconds to tens of seconds; ZDNABERT-scale inference is days.) Tj ET
+0.863 0.863 0.839 RG 0.55 w 66.00 78.00 m 655.00 78.00 l S
+BT 0.137 0.137 0.137 rg /F1 8.0 Tf 32.00 74.00 Td (0.50) Tj ET
+0.863 0.863 0.839 RG 0.55 w 66.00 140.50 m 655.00 140.50 l S
+BT 0.137 0.137 0.137 rg /F1 8.0 Tf 32.00 136.50 Td (0.60) Tj ET
+0.863 0.863 0.839 RG 0.55 w 66.00 203.00 m 655.00 203.00 l S
+BT 0.137 0.137 0.137 rg /F1 8.0 Tf 32.00 199.00 Td (0.70) Tj ET
+0.863 0.863 0.839 RG 0.55 w 66.00 265.50 m 655.00 265.50 l S
+BT 0.137 0.137 0.137 rg /F1 8.0 Tf 32.00 261.50 Td (0.80) Tj ET
+0.863 0.863 0.839 RG 0.55 w 66.00 328.00 m 655.00 328.00 l S
+BT 0.137 0.137 0.137 rg /F1 8.0 Tf 32.00 324.00 Td (0.90) Tj ET
+0.314 0.314 0.314 RG 1.00 w 72.00 78.00 m 72.00 328.00 l S
+0.314 0.314 0.314 RG 1.00 w 72.00 78.00 m 647.00 78.00 l S
+0.184 0.557 0.365 RG 2.00 w 72.00 253.00 m 167.83 259.25 l S
+0.184 0.557 0.365 RG 2.00 w 167.83 259.25 m 263.67 296.75 l S
+0.804 0.290 0.290 RG 2.00 w 263.67 296.75 m 359.50 290.50 l S
+0.804 0.290 0.290 RG 2.00 w 359.50 290.50 m 455.33 280.06 l S
+0.184 0.557 0.365 RG 2.00 w 455.33 280.06 m 551.17 298.00 l S
+0.184 0.557 0.365 RG 2.00 w 551.17 298.00 m 647.00 315.50 l S
+0.298 0.518 0.722 rg 67.50 248.50 9.00 9.00 re f
+BT 0.298 0.518 0.722 rg /F2 8.0 Tf 52.00 265.00 Td (0.780) Tj ET
+BT 0.137 0.137 0.137 rg /F1 7.0 Tf 43.00 55.00 Td (Hunter model 1) Tj ET
+BT 0.314 0.314 0.314 rg /F1 6.0 Tf 49.00 42.00 Td (R=0.56 S=1.00) Tj ET
+0.298 0.518 0.722 rg 163.33 254.75 9.00 9.00 re f
+BT 0.298 0.518 0.722 rg /F2 8.0 Tf 147.83 271.25 Td (0.790) Tj ET
+BT 0.137 0.137 0.137 rg /F1 7.0 Tf 138.83 55.00 Td (Hunter model 2) Tj ET
+BT 0.314 0.314 0.314 rg /F1 6.0 Tf 144.83 42.00 Td (R=0.57 S=1.00) Tj ET
+0.298 0.518 0.722 rg 259.17 292.25 9.00 9.00 re f
+BT 0.298 0.518 0.722 rg /F2 8.0 Tf 243.67 308.75 Td (0.850) Tj ET
+BT 0.137 0.137 0.137 rg /F1 7.0 Tf 234.67 55.00 Td (model2 size 10) Tj ET
+BT 0.314 0.314 0.314 rg /F1 6.0 Tf 240.67 42.00 Td (R=0.73 S=0.97) Tj ET
+0.298 0.518 0.722 rg 355.00 286.00 9.00 9.00 re f
+BT 0.298 0.518 0.722 rg /F2 8.0 Tf 339.50 302.50 Td (0.840) Tj ET
+BT 0.137 0.137 0.137 rg /F1 7.0 Tf 330.50 55.00 Td (model2 size 8) Tj ET
+BT 0.314 0.314 0.314 rg /F1 6.0 Tf 336.50 42.00 Td (R=0.82 S=0.85) Tj ET
+0.184 0.557 0.365 rg 450.83 275.56 9.00 9.00 re f
+BT 0.184 0.557 0.365 rg /F2 8.0 Tf 435.33 292.06 Td (0.823) Tj ET
+BT 0.137 0.137 0.137 rg /F1 7.0 Tf 426.33 55.00 Td (E7 B threshold) Tj ET
+BT 0.314 0.314 0.314 rg /F1 6.0 Tf 432.33 42.00 Td (R=0.81 S=0.84) Tj ET
+0.184 0.557 0.365 rg 546.67 293.50 9.00 9.00 re f
+BT 0.184 0.557 0.365 rg /F2 8.0 Tf 531.17 310.00 Td (0.852) Tj ET
+BT 0.137 0.137 0.137 rg /F1 7.0 Tf 522.17 55.00 Td (E7 tuned threshold) Tj ET
+BT 0.314 0.314 0.314 rg /F1 6.0 Tf 528.17 42.00 Td (R=0.77 S=0.93) Tj ET
+0.804 0.290 0.290 rg 642.50 311.00 9.00 9.00 re f
+BT 0.804 0.290 0.290 rg /F2 8.0 Tf 627.00 327.50 Td (0.880) Tj ET
+BT 0.137 0.137 0.137 rg /F1 7.0 Tf 618.00 55.00 Td (ZDNABERT ref.) Tj ET
+BT 0.314 0.314 0.314 rg /F1 6.0 Tf 624.00 42.00 Td (R=0.88 S=0.89) Tj ET
+BT 0.137 0.137 0.137 rg /F2 9.0 Tf 262.00 20.00 Td (Shin validation configuration) Tj ET
+BT 0.137 0.137 0.137 rg /F2 8.0 Tf 19.00 194.00 Td (Balanced) Tj ET
+BT 0.137 0.137 0.137 rg /F2 8.0 Tf 19.00 183.00 Td (accuracy) Tj ET
+0.298 0.518 0.722 rg 515.00 355.00 10.00 10.00 re f
+BT 0.137 0.137 0.137 rg /F1 8.0 Tf 531.00 357.00 Td (Z-DNA Hunter settings) Tj ET
+0.184 0.557 0.365 rg 515.00 337.00 10.00 10.00 re f
+BT 0.137 0.137 0.137 rg /F1 8.0 Tf 531.00 339.00 Td (Z-DNA Hunter + E7 fuzzy decision layer) Tj ET
+0.804 0.290 0.290 rg 515.00 319.00 10.00 10.00 re f
+BT 0.137 0.137 0.137 rg /F1 8.0 Tf 531.00 321.00 Td (ZDNABERT external reference) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000263 00000 n 
+0000000333 00000 n 
+0000000408 00000 n 
+trailer << /Size 7 /Root 1 0 R >>
+startxref
+4406
+%%EOF

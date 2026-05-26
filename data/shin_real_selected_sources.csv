@@ -1,0 +1,6 @@
+source_id,source_label,tp,tn,fp,fn,recall,specificity,balanced_accuracy,youden_j
+hunter_model1_10bp,Z-DNA Hunter model 1 size 10,196,72,1,116,0.6282,0.9863,0.8073,0.6145
+hunter_model2_10bp,Z-DNA Hunter model 2 size 10,211,71,2,101,0.6763,0.9726,0.8244,0.6489
+hunter_model2_8bp,Z-DNA Hunter model 2 size 8,263,54,19,49,0.8429,0.7397,0.7913,0.5827
+hunter_model2_8bp_65perc,Z-DNA Hunter model 2 size 8 score 65%,188,63,10,124,0.6026,0.8630,0.7328,0.4656
+hunter_model2_10bp_60perc,Z-DNA Hunter model 2 size 10 score 60%,197,72,1,115,0.6314,0.9863,0.8089,0.6177
