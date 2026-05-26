@@ -1,0 +1,2 @@
+# Store large raw CSV inputs in Git LFS.
+data/shin_data/**/*.csv filter=lfs diff=lfs merge=lfs -text
